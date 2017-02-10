@@ -33,11 +33,15 @@ $('.uf-submit-simple').on('click', function(e) {
       });
     }
 
-    my_ajax(ajax_loader, alert_ok, formData);
+    my_ajax_virtual(ajax_loader, alert_ok, formData);
   }
 
   return false;   
 });
+
+function my_ajax_virtual(ajax_loader, alert_ok, formData) {
+  alert_ok.show();
+}
 
 function my_ajax(ajax_loader, alert_ok, formData) {
   //отправляем через ajax
