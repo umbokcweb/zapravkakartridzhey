@@ -1,5 +1,5 @@
 $('.uf-submit-simple').on('click', function(e) {
-
+ 
   var name = $(this).parent().find('input[name="your-name"]');
   var phone = $(this).parent().find('input[name="your-phone"]');
   var mail = $(this).parent().find('input[name="your-mail"]');
